@@ -47,15 +47,38 @@
 
 
 ## 🔲 Código del Cronograma / Kronogramaren Kodea / Timing Diagram Code
-Circuito A
+1.Ariketa(T flanco ascendente)
 
-*(Añade aquí el código del WaveDrom)*
+{signal: [
 
-Circuito B
+  {name: 'T', wave: '1...0.1..0.1.0101'},
+  
+  {name: 'clk',  wave: 'P................'},
+  
+  {},
+  
+  {name: 'Q', wave: '1...0.1010101010'},
+  
+  {name: '-Q', wave: '0...1.0101010101'}
+  
+]}
 
-*(Añade aquí el código del WaveDrom)*
 
-... AÑADE LO MÁS CIRCUITOS
+2.Ariketa(T flanco descendente)
+
+{signal: [
+
+  {name: 'T', wave: '1...0.1..0.1.0101'},
+  
+  {name: 'clk',  wave: 'N................'},
+  
+  {},
+  
+  {name: 'Q', wave: '0...1.0101010101'},
+  
+  {name: '-Q', wave: '1...0.1010101010'}
+  
+]}
 
 ---
 
