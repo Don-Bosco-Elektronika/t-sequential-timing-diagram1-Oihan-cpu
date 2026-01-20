@@ -33,15 +33,15 @@
 ---
 
 ## 🔲 Resultado del Cronograma / Kronogramaren Emaitza / Timing Diagram Result
-Circuito A
+1.Ariketa( T flanco ascendente)
 
-*(Añade aquí la captura del WaveDrom)*
+<img width="740" height="531" alt="13 Ariketa" src="https://github.com/user-attachments/assets/ebb33b10-fa2c-4112-9c03-be6bc44c51e1" />
 
-Circuito B
 
-*(Añade aquí la captura del WaveDrom)*
+2.Ariketa(flanco descendente)
 
-... AÑADE LO MÁS CIRCUITOS
+<img width="708" height="538" alt="14  Ariketa" src="https://github.com/user-attachments/assets/2037313f-8ad6-4de0-a910-1f95f80e0373" />
+
 
 ---
 
