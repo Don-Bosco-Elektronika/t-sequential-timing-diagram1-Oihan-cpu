@@ -10,7 +10,7 @@
 **Ariketa (EU): (ZENBAKIA IDATZI)**  
 | Izena                     | Txip Zenbakia | Sinboloa         | Funtzionamendu Describapena                                                                |
 |---------------------------|------------------|------------------|---------------------------------------------------------------------------------|
-| ? | ?             | ? | ? |  
+| x | x             | x | x |  
 
 
 ---
@@ -28,7 +28,7 @@
 
 ## 🔲 Circuitos a Simular / Simulatzeko Zirkuituak / Circuits to Simulate
 
-*(Añade aquí la captura de proteus)*
+EZ DAGO.
 
 ---
 
