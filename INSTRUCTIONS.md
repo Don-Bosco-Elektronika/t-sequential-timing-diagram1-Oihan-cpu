@@ -6,22 +6,12 @@
 
 ---
 
-## 📌 Ejercicio / Ariketa / Exercice
-
-**Ejercicio (ES): (ESCRIBE EL NÚMERO)**  
-| Nombre                     | Número de Chip | Símbolo         | Descripción del Funcionamiento                                                                 |
-|---------------------------|------------------|------------------|---------------------------------------------------------------------------------|
-| ? | ?             | ? | ? | 
 
 **Ariketa (EU): (ZENBAKIA IDATZI)**  
 | Izena                     | Txip Zenbakia | Sinboloa         | Funtzionamendu Describapena                                                                |
 |---------------------------|------------------|------------------|---------------------------------------------------------------------------------|
-| ? | ?             | ? | ? |  
+| x | x             | x | x |  
 
-**Exercice (EN): (WRITE THE NUMBER)**  
-| Name                     | Chip number | Symbol         | Description of Operation                                                               |
-|---------------------------|------------------|------------------|---------------------------------------------------------------------------------|
-| ? | ? | ? | ? |  
 
 ---
 
@@ -38,34 +28,57 @@
 
 ## 🔲 Circuitos a Simular / Simulatzeko Zirkuituak / Circuits to Simulate
 
-*(Añade aquí la captura de proteus)*
+EZ DAGO.
 
 ---
 
 ## 🔲 Resultado del Cronograma / Kronogramaren Emaitza / Timing Diagram Result
-Circuito A
+1.Ariketa( T flanco ascendente)
 
-*(Añade aquí la captura del WaveDrom)*
+<img width="740" height="531" alt="13 Ariketa" src="https://github.com/user-attachments/assets/ebb33b10-fa2c-4112-9c03-be6bc44c51e1" />
 
-Circuito B
 
-*(Añade aquí la captura del WaveDrom)*
+2.Ariketa(flanco descendente)
 
-... AÑADE LO MÁS CIRCUITOS
+<img width="708" height="538" alt="14  Ariketa" src="https://github.com/user-attachments/assets/2037313f-8ad6-4de0-a910-1f95f80e0373" />
+
 
 ---
 
 
 ## 🔲 Código del Cronograma / Kronogramaren Kodea / Timing Diagram Code
-Circuito A
+1.Ariketa(T flanco ascendente)
 
-*(Añade aquí el código del WaveDrom)*
+{signal: [
 
-Circuito B
+  {name: 'T', wave: '1...0.1..0.1.0101'},
+  
+  {name: 'clk',  wave: 'P................'},
+  
+  {},
+  
+  {name: 'Q', wave: '1...0.1010101010'},
+  
+  {name: '-Q', wave: '0...1.0101010101'}
+  
+]}
 
-*(Añade aquí el código del WaveDrom)*
 
-... AÑADE LO MÁS CIRCUITOS
+2.Ariketa(T flanco descendente)
+
+{signal: [
+
+  {name: 'T', wave: '1...0.1..0.1.0101'},
+  
+  {name: 'clk',  wave: 'N................'},
+  
+  {},
+  
+  {name: 'Q', wave: '0...1.0101010101'},
+  
+  {name: '-Q', wave: '1...0.1010101010'}
+  
+]}
 
 ---
 
